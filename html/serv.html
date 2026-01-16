@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios - EmpresAI</title>
+    <link rel="stylesheet" href="/styles/HP.css">
+    <link rel="stylesheet" href="/styles/translate.css">
+</head>
+<div class="cart-overlay" id="cartOverlay">
+    <div class="cart-panel glass" id="cartPanel">
+        <h2>🛒 Tu carrito</h2>
+
+        <ul id="cart-items"></ul>
+
+        <p id="cart-total">Total: 0 €</p>
+
+        <button class="btn-submit">Solicitar servicios</button>
+    </div>
+</div>
+
+<body class="BG img-back">
+
+    <nav class="header">
+        <img src="/IMG/recorteEmpresAI.png" alt="Logo EmpresAI">
+        <a href="/index.html">Inicio</a>
+        <a href="/html/serv.html">Servicios</a>
+        <a href="/html/about.html">Quiénes somos</a>
+        <a href="/html/contact.html">Contacto</a>
+        
+        <div class="translate-wrapper">
+            <select id="custom-language-select">
+                <option value="">Idioma</option>
+                <option value="es">Español</option>
+                <option value="en">English</option>
+                <option value="ca">Català</option>
+                <option value="eu">Euskara</option>
+                <option value="gl">Galego</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+                <option value="pt">Português</option>
+                <option value="de">Deutsch</option>
+                <option value="ru">Ruso</option>
+                <option value="ar">Arabe</option>
+            </select>
+        </div>
+        <div class="cart-header" id="cartHeader">
+    🛒
+    <span id="cart-count">0</span>
+</div>
+
+    </nav>
+
+    <div class="glass">
+        <h1>Nuestros Servicios</h1>
+        <h2>Soluciones de IA para tu Empresa</h2>
+        <p>Transformamos negocios con inteligencia artificial práctica, efectiva y a medida.</p>
+    </div>
+
+    <div class="services-grid">
+        <div class="glass service-card">
+            <h2>Automatización Inteligente</h2>
+            <h3>Optimiza tus procesos</h3>
+            <p>Reducimos tareas repetitivas, ahorramos tiempo y dinero con sistemas IA que trabajan 24/7.</p>
+            <button class="add-to-cart" data-name="Automatización Inteligente" data-price="2000">
+    Añadir al carrito
+</button>
+
+        </div>
+
+        <div class="glass service-card">
+            <h2>Desarrollo Web Profesional</h2>
+            <h3>Presencia digital moderna</h3>
+            <p>Páginas rápidas, bonitas y optimizadas que convierten visitantes en clientes reales.</p>
+            <button class="add-to-cart" data-name="Desarrollo Web Profesional" data-price="3000">
+    Añadir al carrito
+</button>
+
+        </div>
+
+        <div class="glass service-card">
+            <h2>Posicionamiento SEO</h2>
+            <h3>Destaca en Google</h3>
+            <p>Estrategias reales para aparecer arriba y atraer clientes que ya te están buscando.</p>
+            <button class="add-to-cart" data-name="Posicionamiento SEO" data-price="299">
+    Añadir al carrito
+</button>
+
+        </div>
+
+        <div class="glass service-card">
+            <h2>Consultoría de IA</h2>
+            <h3>Estrategia a medida</h3>
+            <p>Te guiamos paso a paso para implementar IA donde realmente genera valor en tu empresa.</p>
+            <button class="add-to-cart" data-name="Consultoría de IA" data-price="500">
+    Añadir al carrito
+</button>
+
+        </div>
+    </div>
+
+    <div class="glass footer">
+        <p>© 2026 EmpresAI. Todos los derechos reservados.</p>
+    </div>
+
+    <div id="google-translate-dummy" style="display:none;"></div>
+    <script src="/scripts/translate.js"></script>
+    <script src="/scripts/cart.js"></script>
+
+
+</body>
+</html>

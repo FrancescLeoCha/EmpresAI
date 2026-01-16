@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - EmpresAI</title>
+    <link rel="stylesheet" href="/styles/HP.css">
+    <link rel="stylesheet" href="/styles/translate.css">
+</head>
+
+<div class="cart-overlay" id="cartOverlay">
+    <div class="cart-panel glass" id="cartPanel">
+        <h2>🛒 Tu carrito</h2>
+
+        <ul id="cart-items"></ul>
+
+        <p id="cart-total">Total: 0 €</p>
+
+        <button class="btn-submit">Solicitar servicios</button>
+    </div>
+</div>
+
+<body class="BG img-back">
+
+    <nav class="header">
+        <img src="/IMG/recorteEmpresAI.png" alt="Logo EmpresAI">
+        <a href="/index.html">Inicio</a>
+        <a href="/html/serv.html">Servicios</a>
+        <a href="/html/about.html">Quiénes somos</a>
+        <a href="/html/contact.html">Contacto</a>
+        
+        <div class="translate-wrapper">
+            <select id="custom-language-select">
+                <option value="">Idioma</option>
+                <option value="es">Español</option>
+                <option value="en">English</option>
+                <option value="ca">Català</option>
+                <option value="eu">Euskara</option>
+                <option value="gl">Galego</option>
+                <option value="fr">Français</option>
+                <option value="it">Italiano</option>
+                <option value="pt">Português</option>
+                <option value="de">Deutsch</option>
+                <option value="ru">Ruso</option>
+                <option value="ar">Arabe</option>
+            </select>
+        </div>
+        <div class="cart-header" id="cartHeader">
+    🛒
+    <span id="cart-count">0</span>
+</div>
+
+    </nav>
+
+    <div class="glass">
+        <h1>Contáctanos</h1>
+        <h2>¿Listo para transformar tu negocio?</h2>
+        <p>Ponte en contacto con nuestro equipo y descubre cómo la IA puede llevar tu empresa al siguiente nivel.</p>
+    </div>
+
+<div class="glass">
+    <h2>Información de Contacto</h2>
+    
+    <div class="contact-info">
+        <div class="contact-item">
+            <h3>Email</h3>
+            <p><a href="mailto:info@empresai.com">info@empresai.com</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>Teléfono</h3>
+            <p><a href="tel:+34640653970">+34 640 653 970</a></p>
+        </div>
+        <div class="contact-item">
+            <h3>Ubicación</h3>
+            <p>Barcelona, España</p>
+        </div>
+    </div>
+</div>
+
+<div class="glass">
+    <h2>Formulario de Contacto</h2>
+    <form class="contact-form" action="#" method="post" novalidate>
+        <div class="form-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@correo.com" required>
+        </div>
+        
+        <div class="form-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" placeholder="Escribe tu mensaje aquí..." required></textarea>
+        </div>
+        
+        <button type="submit" class="btn-submit">Enviar Mensaje</button>
+    </form>
+</div>
+<div class="glass-map">
+    <h2>Nuestra Ubicación</h2>
+    <p>Visítanos en nuestra oficina en Barcelona.</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7114.915299408458!2d2.172704491578628!3d41.42938299740507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4bcd217d2d4ad%3A0x6f6baa64f84aac44!2sNau%20Bostik!5e0!3m2!1ses!2ses!4v1768579487679!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+    <div class="glass footer">
+        <p>© 2026 EmpresAI. Todos los derechos reservados.</p>
+    </div>
+
+    <div id="google-translate-dummy" style="display:none;"></div>
+    <script src="/scripts/translate.js"></script>
+    <script src="/scripts/cart.js"></script>
+
+
+</body>
+</html>
