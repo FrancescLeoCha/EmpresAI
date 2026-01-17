@@ -26,7 +26,7 @@ body {
 }
 
 .img-back {
-    background-image: url(/IMG/NY.jpg);
+    background-image: url(/EmpresAI/IMG/NY.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -555,3 +555,4 @@ body .skiptranslate {
     transform: scale(1.2);
     color: #ff9b9b;
 }
+
